@@ -1,0 +1,32 @@
+/* Rolagem suave ao clicar nos links do menu */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ajuste visual para a logo */
+.logo-bg-fix {
+  background-color: transparent;
+}
+
+/* Personalização da paginação do Swiper */
+.services-swiper .swiper-pagination-bullet {
+  background-color: #9ca3af;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+
+.services-swiper .swiper-pagination-bullet-active {
+  background-color: #bd964e;
+  opacity: 1;
+  width: 24px;
+  border-radius: 5px;
+}
+
+/* Personalização das setas de navegação do Swiper */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 22px !important;
+  font-weight: bold;
+}
